@@ -9,3 +9,5 @@ eureka:
 feign:
   hystrix:
     enabled: true
+env:
+  SPRING_PROFILES_ACTIVE: discovery
